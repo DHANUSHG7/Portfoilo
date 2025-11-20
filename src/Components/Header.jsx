@@ -103,12 +103,12 @@ export default function Header() {
         {/* mobile menu */}
         <div id="mobile-menu" className={`md:hidden ${open ? "block" : "hidden"} border-t border-white/10`}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link href="#home" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">Home</Link>
-            <Link href="#about" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">About</Link>
-            <Link href="#skills" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">Knowledge</Link>
-            <Link href="#projects" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">Projects</Link>
-            <Link href="#certificates" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">Certificates</Link>
-            <Link href="#contact" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">Contact Me</Link>
+            <Link to={'home'} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">Home</Link>
+            <Link to={'about'} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">About</Link>
+            <Link to={'knowledge'} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">Knowledge</Link>
+            <Link to={'projects'} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">Projects</Link>
+            <Link to={'certificate'} className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-white/5">Certificates</Link>
+            <Link  to={'contact'} className="block px-3 py-2 rounded-md text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">Contact Me</Link>
           </div>
         </div>
       </div>
