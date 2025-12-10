@@ -26,9 +26,9 @@ const Knowledge = () => {
         <h1 className="fade-up bg-gradient-to-r from-blue-500 via-purple-600 to-blue-700 bg-clip-text text-transparent text-5xl text-center p-5 m-4 font-bold"> KNOWLEDGE</h1>
 
       <div className='fade-up flex justify-center items-center flex-wrap p-3 gap-5 '> 
-        <div className='fade-up backdrop-blur-xl bg-gradient-to-br from-white/20 to-white/10 border border-white/10 
+        <div className='fade-up w-75 backdrop-blur-xl bg-gradient-to-br from-white/20 to-white/10 border border-white/10 
         rounded-2xl md:p-3 p-2 shadow-lg text-transparent'>
-          <h1  className=' zoom-in1 text-3xl text-white'>Front-End Technologies</h1>
+          <h1  className=' zoom-in1 bg-gradient-to-r from-blue-500 via-purple-600 to-blue-700 bg-clip-text text-transparent text-4xl font-bold text-center'>Front-End </h1>
           <div className='zoom-in1 flex justify-center items-center p-3' >
             <img src={html} alt="" className='w-15 p-2  ' />
             <p className=' text-white font-bold' >HTML</p>
@@ -57,9 +57,9 @@ const Knowledge = () => {
         <div className=''>
           <div className='fade-up mb-5 backdrop-blur-xl bg-gradient-to-br from-white/20 to-white/10 border border-white/10 
         rounded-2xl md:p-3 p-2 shadow-lg text-transparent'>
-          <h1  className='text-3xl text-white'>Back-End Technologies</h1>
+          <h1  className='bg-gradient-to-r from-blue-500 via-purple-600 to-blue-700 bg-clip-text text-transparent text-4xl font-bold text-center'>Back-End</h1>
           
-          <div className='zoom-in1 flex justify-center items-center p-3' >
+          <div className='zoom-in1 w-75 flex justify-center items-center p-3' >
             <img src={nodejs} alt="" className='w-15 p-2  ' />
             <p className=' text-white font-bold' >NODE JS</p>
           </div>
@@ -70,9 +70,9 @@ const Knowledge = () => {
          
         </div>
         
-        <div className='fade-up mt-9 backdrop-blur-xl bg-gradient-to-br from-white/20 to-white/10 border border-white/10 
+        <div className='fade-up w-85 mt-9 backdrop-blur-xl bg-gradient-to-br from-white/20 to-white/10 border border-white/10 
         rounded-2xl md:p-3 p-2 shadow-lg text-transparent'>
-          <h1  className='text-3xl text-white'>Database Technologies</h1>
+          <h1  className='bg-gradient-to-r from-blue-500 via-purple-600 to-blue-700 bg-clip-text text-transparent text-4xl font-bold text-center'>Database</h1>
           <div className='zoom-in1 flex justify-center items-center p-3' >
             <img src={mongo} alt="" className='w-15 p-2  ' />
             <p className=' text-white font-bold' >MONGO DB</p>
@@ -86,9 +86,9 @@ const Knowledge = () => {
         </div>
         </div>
 
-         <div className='fade-up backdrop-blur-xl bg-gradient-to-br from-white/20 to-white/10 border border-white/10 
+         <div className='fade-up w-75 backdrop-blur-xl bg-gradient-to-br from-white/20 to-white/10 border border-white/10 
         rounded-2xl md:p-3 p-2 shadow-lg text-transparent'>
-          <h1  className='text-3xl text-white w-75'> Other Technologies</h1>
+          <h1  className='bg-gradient-to-r from-blue-500 via-purple-600 to-blue-700 bg-clip-text text-transparent text-4xl font-bold text-center '> Other </h1>
           <div className='zoom-in1 flex justify-center items-center p-3' >
             <img src={git} alt="" className='w-15 p-2  ' />
             <p className=' text-white font-bold' >GIT</p>

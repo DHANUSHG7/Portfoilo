@@ -67,11 +67,11 @@ export default function Header() {
 
             {/* Desktop nav */}
             <nav className="hidden md:flex items-center space-x-6 cursor-pointer">
-              <Link to={'home'} className="text-white hover:text-indigo-300">Home</Link>
-              <Link to={'about'} className="text-white hover:text-indigo-300">About</Link>
-              <Link to={'knowledge'} className="text-white hover:text-indigo-300">Knowledge</Link>
-              <Link to={'projects'} className="text-white hover:text-indigo-300">Projects</Link>
-              <Link to={'certificate'} className="text-white hover:text-indigo-300">Certificates</Link>
+              <Link to={'home'} className="text-white transition-all duration-300 ease-in-out hover:text-indigo-300">Home</Link>
+              <Link to={'about'} className="text-white transition-all duration-300 hover:text-indigo-300 ">About</Link>
+              <Link to={'knowledge'} className="text-white transition-all duration-300 hover:text-indigo-300 ">Knowledge</Link>
+              <Link to={'projects'} className="text-white transition-all duration-300 hover:text-indigo-300">Projects</Link>
+              <Link to={'certificate'} className="text-white transition-all duration-300 hover:text-indigo-300">Certificates</Link>
               <Link to={'contact'} className="ml-4 inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-md">
                 Contact Me
               </Link>

@@ -4,6 +4,7 @@ import mexant from '../assets/mexant.png'
 import villa from '../assets/villa.png'
 import portfolio from '../assets/portfoliio.png'
 import netflix from '../assets/netflix.png'
+import vegii from '../assets/vegii.png'
 
 const Projects = () => {
   return (
@@ -23,7 +24,24 @@ const Projects = () => {
                     <p className='text-lg text-white'>Develop a Netflix clone </p>
                     <p className=' text-white'>TECHNOLOGY USED : REACTJS, BOOTSTRAP </p>
                     <div className="card-actions justify-center">
-                    <button className="btn btn-primary"><a href="https://dhanushg7.github.io/netflix-clone/ " target='_blank'>Live demo</a></button>
+                    <button className="btn btn-primary"><a href="netflix-clone-git-main-dhanushs-projects-9cb2b9f9.vercel.app " target='_blank'>Live demo</a></button>
+                    <button className="btn btn-primary"><a href="https://github.com/DHANUSHG7/netflix-clone" target='_blank'>Git Hub</a></button>
+                    </div>
+                </div>
+                </div>
+                <div className="card w-85 h-[60vh] backdrop-blur-xl bg-gradient-to-br from-white/20 to-white/10 border
+         border-white/20 rounded-2xl md:p-2 p-6 shadow-lg ">
+                <figure className='zoom-in1 h-45'>
+                    <img
+                    src={vegii}
+                    alt="Not found"  />
+                </figure>
+                <div className="card-body zoom-in1">
+                    <h2 className="card-title text-2xl text-white">Vegii-Shop UI</h2>
+                    <p className='text-lg text-white'>Develop a Vegii content website </p>
+                    <p className=' text-white'>TECHNOLOGY USED : REACTJS, BOOTSTRAP </p>
+                    <div className="card-actions justify-center">
+                    <button className="btn btn-primary"><a href="https://vegii-mern-app.vercel.app/ " target='_blank'>Live demo</a></button>
                     <button className="btn btn-primary"><a href="https://github.com/DHANUSHG7/netflix-clone" target='_blank'>Git Hub</a></button>
                     </div>
                 </div>
