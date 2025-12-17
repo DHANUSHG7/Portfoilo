@@ -24,7 +24,7 @@ const Projects = () => {
                     <p className='text-lg text-white'>Develop a Netflix clone </p>
                     <p className=' text-white'>TECHNOLOGY USED : REACTJS, BOOTSTRAP </p>
                     <div className="card-actions justify-center">
-                    <button className="btn btn-primary"><a href="netflix-clone-git-main-dhanushs-projects-9cb2b9f9.vercel.app " target='_blank'>Live demo</a></button>
+                    <button className="btn btn-primary"><a href="https://netflix-clone-git-main-dhanushs-projects-9cb2b9f9.vercel.app/" target='_blank'>Live demo</a></button>
                     <button className="btn btn-primary"><a href="https://github.com/DHANUSHG7/netflix-clone" target='_blank'>Git Hub</a></button>
                     </div>
                 </div>
